@@ -1,10 +1,10 @@
 # Data Management App Prototype in **Clojure**
 
-This app reads data from 3 different files.
-Displays data that is read from files.
+This app reads data from 3 different text files.
+On selection of appropriate menus, displays data that is read from files.
 For menus that require special processing on data read from files,
-it performs multiple calculations combining data from multiple files.
-The results obtained are given as input to another function as input.
+it performs multiple calculations combining and manipulating data from multiple files.
+The results obtained from one function are given as input to another function.
 
 As **Clojure** is a **functional programming language**, I intended to use more functional style programming constructs 
 like **recursion** or leveraging full potential of the *apply-to-all* style functions (e.g, map, reduce, filters).
